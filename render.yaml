@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: crash-bot
+    env: node
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    plan: free
+    autoDeploy: true
+    envVars: []
